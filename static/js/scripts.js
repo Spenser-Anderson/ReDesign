@@ -24,8 +24,8 @@ var nyt =
 
 document.addEventListener('click', clickHandlers);
 
-getData();
+// getData();
 
-// if (document.querySelector('.blog')) {
-//   getData();
-// }
+if (document.querySelector('.blog')) {
+  getData();
+}
