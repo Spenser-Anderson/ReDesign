@@ -1,7 +1,12 @@
 .content-video {
   iframe {
     background: #222;
-    height: 320px;
+    height: 200px;
+    width: 100%;
+
+    @media (min-width: $break-sm) {
+      height: 420px;
+    }
   }
   .btn-list {
     padding: 6px;
